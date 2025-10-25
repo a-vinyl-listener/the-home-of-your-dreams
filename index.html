@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Подключаем шрифт Inter с Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+    <link
+      rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+  <!-- class="animate__animated animate__zoomInDown -->
+  <header class="container">
+    <div class="logo">Продажа квартир</div>
+    <nav  id="menu">
+      <ul class="animate__animated animate__zoomInDown">
+        <li class="animate__animated animate__backInDown"><a href="#">О компании</a></li>
+        <li class="animate__animated animate__backInLeft"><a href="#">Новости</a></li>
+        <li class="animate__animated animate__backInRight"><a href="#">Помощь</a></li>
+        <li class="animate__animated animate__backInUp"><a href="#">Отзывы</a></li>
+        <li class="animate__animated animate__backInLeft"><a href="#">Контакты</a></li>
+        <!-- <div class="my-phone" id="parentElement"> </div> -->
+      </ul>
+    </nav>
+    <div class="header-right">
+      <div class="phone" id="myElement">+7 495 123-45-67</div>
+      <button class="btn-orange">Заказать звонок</button>
+      <button class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero container p-165">
+    <div class="hero-text">
+      <h1>Купите квартиру своей мечты</h1>
+      <p>Мы продаем прекрасные квартиры в вашем городе. Оставьте заявку или ознакомьтесь с предложениями</p>
+    </div>
+    <div class="hero-form">
+      <p>
+        <strong>Ищите квартиру?</strong><br />Оставьте заявку на подбор квартиры прямо сейчас и мы поможем!
+      </p>
+      <button>Оставить заявку</button>
+      <small>от 15 дней пробный период</small>
+    </div>
+  </section>
+
+<section class="apartment container p-165">
+  <div class="apartment-wrap">
+    <div class="apartment-img">
+      <img src="img/01.webp" alt="#">
+    </div>
+    <div class="apartment-box">
+      <h2>Двухкомнатная квартира</h2>
+      <p class="apartment-address">ул. Ленина, дом 25</p>
+      <p class="apartment-price">3 450 000 ₽</p>
+      <button class="apartment-order">Заказать</button>
+    </div>
+  </div>
+  <div class="apartment-wrap">
+    <div class="apartment-img">
+      <div class="apartment-percent">
+        <p>%</p>
+      </div>
+      <img src="img/02.webp" alt="#">
+    </div>
+    <div class="apartment-box">
+      <h2 class="apartment-title">Однокомнатная квартира</h2>
+      <p class="apartment-address">ул. Октябрьская, дом 14</p>
+      <div class="apartment-inner">
+        <p class="apartment-price">2 150 000 ₽</p>
+        <p class="apartment-price2"><del>2 450 000 ₽</del></p>
+      </div>
+      <button class="apartment-order">Заказать</button>
+    </div>
+  </div>
+  <div class="apartment-wrap">
+    <div class="apartment-img">
+      <img src="img/03.webp" alt="">
+    </div>
+    <div class="apartment-box">
+      <h2 class="apartment-title">Трехкомнатная квартира</h2>
+      <p class="apartment-address">ул. Варламова, дом 8</p>
+      <p class="apartment-price">3 150 000 ₽</p>
+      <button class="apartment-order">Заказать</button>
+    </div>
+  </div>
+  <div class="apartment-wrap">
+    <div class="apartment-img">
+      <img src="img/04.webp" alt="#">
+    </div>
+    <div class="apartment-box">
+      <h2 class="apartment-title">Двухкомнатная квартира</h2>
+      <p class="apartment-address">ул. Ленина, дом 25</p>
+      <p class="apartment-price">3 450 000 ₽</p>
+      <button class="apartment-order">Заказать</button>
+    </div>
+  </div>
+  <div class="apartment-wrap">
+    <div class="apartment-img">
+      <div class="apartment-percent">
+        <p>%</p>
+      </div>
+      <img src="img/05.webp" alt="">
+    </div>
+    <div class="apartment-box">
+      <h2 class="apartment-title">Однокомнатная квартира</h2>
+      <p class="apartment-address">ул. Октябрьская, дом 14</p>
+      <div class="apartment-inner">
+        <p class="apartment-price">2 150 000 ₽</p>
+        <p class="apartment-price2"><del>2 450 000 ₽</del></p>
+      </div>
+      <button class="apartment-order">Заказать</button>
+    </div>
+  </div>
+  <div class="apartment-wrap">
+    <div class="apartment-img">
+      <img src="img/06.webp" alt="">
+    </div>
+    <div class="apartment-box">
+      <h2 class="apartment-title">Трехкомнатная квартира</h2>
+      <p class="apartment-address">ул. Варламова, дом 8</p>
+      <p class="apartment-price">3 150 000 ₽</p>
+      <button class="apartment-order">Заказать</button>
+    </div>
+  </div>
+</section>
+
+<section class="search container p-165">
+  <div class="search-text">
+    <h2>Не нашли квартиру?</h2>
+    <p>Ничего страшного! Мы поможем вам в подборе и найдём идеальный вариант. Оставьте заявку<br>прямо сейчас - и
+      мысвяжеся с вами в ближайшее время</p>
+  </div>
+  <form class="search-form">
+    <input class="search-text" type="text" placeholder="Ваше имя">
+    <input class="search-tel" type="tel" placeholder="+7(000)000-0000">
+    <input class="search-email" type="email" placeholder="E-mail">
+    <button>Оставить заявку</button>
+  </form>
+  <small>Оставляя заявку, вы соглашаетесь на <a>обработку персональных данных</a> и с <a>условиями бронирования счёта</a></small>
+</section>
+
+<section class="benefits container p-165">
+  <div class="benefits-box">
+    <h2 class="benefits-title">Преимущества</h2>
+    <h3 class="benefits-slogan">Более 10 лет на рынке</h3>
+    <p class="benefits-desc">Мы работаем для того, чтобы максимально удовлетворять <br>потребности и обеспечить
+      безопасность сделок<br> с недвижимостью</p>
+  </div>
+  <div class="benefits-inner">
+    <div class="benefits-holder">
+      <div class="benefits-percent">
+        <p>%</p>
+      </div>
+      <h2 class="benefits-subtitle">Выставление<br> счетов</h2>
+      <p class="benefits-text">Создавайте счёт и<br>отправляйте контрагенту<br> одной кнопкой</p>
+    </div>
+    <div class="benefits-holder">
+      <div class="benefits-percent">
+        <p>%</p>
+      </div>
+      <h2 class="benefits-subtitle">Выставление<br> счетов</h2>
+      <p class="benefits-text">Создавайте счёт и<br> отправляйте контрагенту<br> одной кнопкой</p>
+    </div>
+    <div class="benefits-holder">
+      <div class="benefits-percent">
+        <p>%</p>
+      </div>
+      <h2 class="benefits-subtitle">Выставление<br> счетов</h2>
+      <p class="benefits-text">Создавайте счёт и<br> отправляйте контрагенту<br> одной кнопкой</p>
+    </div>
+    <div class="benefits-holder">
+      <div class="benefits-percent">
+        <p>%</p>
+      </div>
+      <h2 class="benefits-subtitle">Выставление<br> счетов</h2>
+      <p class="benefits-text">Создавайте счёт и<br> отправляйте контрагенту<br> одной кнопкой</p>
+    </div>
+  </div>
+</section>
+
+<section class="team container p-165">
+  <div class="team-box">
+    <h2 class="team-title">Команда</h2>
+    <h3 class="team-slogan">Наши специалисты</h3>
+    <p class="team-desc">Наша команда готова помочь решить Вам любую задачу с <br>недвижимостью. Обращайтесь</p>
+  </div>
+  <div class="team-inner">
+    <div class="team-holder">
+      <div class="team-img">
+        <img src="icon/01.webp" alt="#">
+      </div>
+      <h2 class="team-initials">Имя Фамилия</h2>
+      <p class="team-description">Описание</p>
+    </div>
+    <div class="team-holder">
+      <div class="team-img">
+        <img src="icon/02.webp" alt="#">
+      </div>
+      <h2 class="team-initials">Имя Фамилия</h2>
+      <p class="team-description">Описание</p>
+    </div>
+    <div class="team-holder">
+      <div class="team-img">
+        <img src="icon/03.webp" alt="#">
+      </div>
+      <h2 class="team-initials">Имя Фамилия</h2>
+      <p class="team-description">Описание</p>
+    </div>
+    <div class="team-holder">
+      <div class="team-img">
+        <img src="icon/04.webp" alt="#">
+      </div>
+      <h2 class="team-initials">Имя Фамилия</h2>
+      <p class="team-description">Описание</p>
+    </div>
+  </div>
+</section>
+
+<section class="company container p-165">
+  <h2 class="company-title">О компании</h2>
+  <h3 class="company-slogan">8 лет мы помогаем вам <br>заключать сделки с <br>недвижимостью</h3>
+  <p class="company-desc">Это ваш голосовой клон AI. Мы фиксируем ваши уникальные речевые образцы, <br>произношение и
+    эмоциональный диапазон, чтобы создать реалистичный<br> голос-реплику.</p>
+  <p class="company-desc">Загрузите записи или выполните один из наших сценариев, чтобы создать свой <br>собственный
+    голос.</p>
+  <button class="company-big">Большая</button>
+</section>
+
+<section class="sale container p-165">
+  <div class="sale-holder">
+    <h2 class="sale-title">Хотите продать <br>квартиру?</h2>
+    <p class="sale-text-white">Оставьте заявку, если вы хотите продавть квартиру. Мы <br>свяжемся с вами и произведём оценку
+    </p>
+  </div>
+  <form class="sale-form">
+    <input class="sale-text" type="text" placeholder="Ваше имя">
+    <input class="sale-tel" type="tel" placeholder="+7(000)000-0000">
+    <input class="sale-email" type="email" placeholder="E-mail">
+    <div class="sale-inner">
+      <h2 class="sale-subject">Выберите способ доставки</h2>
+      <div class="sale-box">
+        <div class="sale-row">
+          <input type="radio" name="drone" value="huey" checked>
+          <label for="huey">До квартиры</label>
+        </div>
+        <div class="sale-row">
+          <input type="radio" name="drone" value="huey" checked>
+          <label for="huey">До подъезда</label>
+        </div>
+        <div class="sale-row">
+          <input type="radio" name="drone" value="huey" checked>
+          <label for="huey">Самовывоз</label>
+        </div>
+        <button class="sale-btn">Оставить заявку</button>
+      </div>
+    </div>
+  </form>
+  <small>Оставляя заявку, вы соглашаетесь на обработку персональных данных <br>и с условиями бронирования счёта</small>
+</section>
+
+<section class="reviews container p-165">
+  <div class="reviews-button">
+    <div class="forward">
+    </div>
+    <div class="ago">
+    </div>
+  </div>
+  <div class="reviews-box">
+    <div class="reviews-img">
+      <img src="icon/Ellipse 1 (1).webp" alt="">
+    </div>
+    <p class="reviews-text">Работа с сервисом приносит радость, потому что высочайший <br> профессионализм, удобство,
+      оперативность, и просто <br> приятные люди!</p>
+    <p class="reviews-initials">Александра Селезнева</p>
+    <p class="reviews-profession">фотограф</p>
+  </div>
+  <div class="reviews-wrap">
+    <a class="reviews-pagination" href="#"></a>
+    <a class="reviews-pagination" href="#"></a>
+    <a class="reviews-pagination" href="#"></a>
+    <a class="reviews-pagination" href="#"></a>
+    <a class="reviews-pagination" href="#"></a>
+  </div>
+</section>
+
+<section class="partners container p-165">
+  <h2 class="partners-title">Наши партнёры</h2>
+  <div class="partners-box">
+    <div><img src="icon/Новая папка/Rectangle 58.webp" alt="#"></div>
+    <div><img src="icon/Новая папка/Rectangle 59.webp" alt="#"></div>
+    <div><img src="icon/Новая папка/Rectangle 60.webp" alt="#"></div>
+    <div><img src="icon/Новая папка/Rectangle 61.webp" alt="#"></div>
+  </div>
+</section>
+
+<section class="contact container">
+  <!-- <div class="contact-wrap"> -->
+  <div class="contact-box">
+    <h2 class="contact-title">Контакты</h2>
+    <div class="contact-link">
+      <a href="+7 987 654-32-10">+7 987 654-32-10</a>
+      <a href="info@constructor.ru">info@constructor.ru</a>
+    </div>
+    <div class="contact-text">г. Москва, метро “Китай город”,<br>ул. Яузская, дом 11/6K5
+    </div>
+  </div>
+  <div class="contact-map">
+    <div style="position:relative;overflow:hidden; padding:0;">
+      <a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+        style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+        href="https://yandex.ru/maps/213/moscow/house/yauzskaya_ulitsa_11_6k5/Z04YcAJiTEMFQFtvfXt1dHRnbA==/?ll=37.652561%2C55.745848&utm_medium=mapframe&utm_source=maps&z=16.32"
+        style="color:#eee;font-size:12px;position:absolute;top:14px;">Яузская улица, 11/6к5 — Яндекс Карты</a>
+      <iframe
+        src="https://yandex.ru/map-widget/v1/?ll=37.652561%2C55.745848&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjcwODIyNRI-0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINCv0YPQt9GB0LrQsNGPINGD0LvQuNGG0LAsIDExLzbQujUiCg05nBZCFcD7XkI%2C&z=16.32"
+        width="705" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
+      </iframe>
+    </div>
+  </div>
+  <!-- </div> -->
+</section>
+
+<footer class="footer container p-165"">
+  <div class="footer-network">
+    <a href="https://www.facebook.com/"><img src="icon/Новая папка/24 _ Facebook.webp" alt="#"></a>
+    <a href="https://www.instagram.com/"><img src="icon/Новая папка/24 _ Instagram.webp" alt="#"></a>
+    <a href="https://twitter.com/"><img src="icon/Новая папка/24 _ Twitter.webp" alt="#"></a>
+    <a href="https://m.vk.com/"><img src="icon/Новая папка/24 _ VK.webp" alt="#"></a>
+  </div>
+  <div class="footer-menu">
+    <ul>
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">Новости</a></li>
+      <li><a href="#">Помощь</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+  <div class="footer-text">
+    <p>© 2020 Продажа квартир</p>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+const burger = document.getElementById('burger')
+const menu = document.querySelector('nav ul')
+burger.addEventListener('click', () => {
+  burger.classList.toggle('active')
+  menu.classList.toggle('open')
+})
+
+})
+// const myElement = document.getElementById('myElement');
+// const parentElement = document.getElementById('parentElement');
+// parentElement.append(myElement);
+
+</script>
+
+
+
+
+</body>
+</html>
